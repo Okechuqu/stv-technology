@@ -39,3 +39,8 @@ This repository includes:
 
 ## Contributing
 We welcome contributions from engineers, developers, and project managers. For collaboration, please submit a pull request or contact us via [info@stv-technology.com](mailto:info@stv-technology.com).
+
+---
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
