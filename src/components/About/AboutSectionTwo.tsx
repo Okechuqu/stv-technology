@@ -13,19 +13,14 @@ const AboutSectionTwo = () => {
               <Img
                 src="/images/about/slideone2.jpg"
                 alt="about image"
-                className="drop-shadow-three about2img rounded-lg dark:hidden dark:drop-shadow-none"
-              />
-              <Img
-                src="/images/about/slideone2.jpg"
-                alt="about image"
-                className="drop-shadow-three about2img rounded-lg hidden dark:block dark:drop-shadow-none"
+                className="drop-shadow-three about2img rounded-lg hidden drop-shadow-none"
               />
             </div>
           </div>
           <div className="w-full px-4 lg:w-1/2">
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black   dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl font-bold text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Proven Project Excellence
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
@@ -38,7 +33,7 @@ const AboutSectionTwo = () => {
                 </p>
               </div>
               <div className="mb-9">
-                <h3 className="mb-4 text-xl font-bold text-black  dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
+                <h3 className="mb-4 text-xl font-bold text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Leadership and Expertise
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">

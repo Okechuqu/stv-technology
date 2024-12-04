@@ -7,7 +7,7 @@ const Hero = () => {
     <>
       <section
         id="home"
-        className="dark:bg-gray-dark relative z-10 overflow-hidden bg-black pb-10 pt-[4rem] md:pt-[8rem]  xl:pt-[180px] 2xl:pt-[210px]"
+        className=" relative z-10 overflow-hidden bg-black pb-10 pt-[4rem] md:pt-[8rem]  xl:pt-[180px] 2xl:pt-[210px]"
       >
         <BackgroundLines>
           <div className="container">
@@ -20,7 +20,7 @@ const Hero = () => {
                   <h1 className="mb-5 bg-clip-text text-transparent text-3xl text-center bg-gradient-to-b from-neutral-900 to-neutral-100   leading-tight font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight md:text-5xl sm:text-4xl">
                     STV TECHNOLOGY LIMITED
                   </h1>
-                  <p className="dark:text-body-color-dark mb-12 text-base !leading-relaxed text-[#b6c1d5] sm:text-lg md:text-xl">
+                  <p className=" mb-12 text-base !leading-relaxed text-[#b6c1d5] sm:text-lg md:text-xl">
                     STV Technology Limited is an integrated conglomerate uniting
                     diverse sectors within one organization, driven by a shared
                     mission to leverage cutting-edge science, advanced
@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
         </BackgroundLines>
       </section>
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
     </>
   );
 };

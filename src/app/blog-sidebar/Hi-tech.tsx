@@ -15,18 +15,18 @@ export const metadata: Metadata = {
 const HiTechPage = () => {
   return (
     <>
-      <section className="overflow-hidden pb-[120px] pt-[180px]">
+      <section className="overflow-hidden pb-[50px] pt-[50px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 lg:w-8/12">
               <div>
-                <h1 className=" text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight">
+                <h1 className=" text-3xl font-bold leading-tight text-white sm:text-4xl sm:leading-tight">
                   Hi-Tech Security
                 </h1>
                 <p className="text-[#EC8618] text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                   Protecting our African Communities!
                 </p>
-                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4 dark:border-white dark:border-opacity-10"></div>
+                <div className="mb-10 flex flex-wrap items-center justify-between border-b border-body-color pb-4 border-opacity-10"></div>
                 <div>
                   <p className="mb-10 text-xl font-bold leading-tight text-white sm:text-xl sm:leading-tight">
                     Our Practical Hi-Tech Solutions
@@ -59,7 +59,7 @@ const HiTechPage = () => {
                     every detail is addressed, offering peace of mind and robust
                     protection in an increasingly unpredictable world.
                   </p>
-                  <h3 className="font-xl mb-10 font-bold leading-tight text-black dark:text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
+                  <h3 className="font-xl mb-10 font-bold leading-tight text-white sm:text-2xl sm:leading-tight lg:text-xl lg:leading-tight xl:text-2xl xl:leading-tight">
                     24/7 Expert Security Management Support
                   </h3>
                   <p className="mb-10 text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
@@ -248,40 +248,40 @@ const HiTechPage = () => {
               </div>
             </div>
             <div className="w-full px-4 lg:w-4/12">
-              <div className="shadow-three dark:bg-gray-dark mb-10 rounded-sm bg-[#1D2430] dark:shadow-none">
-                <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold text-black dark:border-white dark:border-opacity-10 dark:text-white">
+              <div className="shadow-three mb-10 rounded-sm bg-[#1D2430]">
+                <h3 className="border-b border-body-color border-opacity-10 px-8 py-4 text-lg font-semibold border-white text-white">
                   Our Services
                 </h3>
                 <ul className="p-8">
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                  <li className="mb-6 border-b border-body-color pb-6 border-opacity-10">
                     <RelatedPost
                       title="Information Technology"
                       image="/images/blog/it.jpeg"
                       slug="/it"
                     />
                   </li>
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                  <li className="mb-6 border-b border-body-color pb-6 border-opacity-10">
                     <RelatedPost
                       title="Hi-Tech Security"
                       image="/images/blog/hi-tech-security.jpeg"
                       slug="/hi-tech"
                     />
                   </li>
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                  <li className="mb-6 border-b border-body-color pb-6 border-opacity-10">
                     <RelatedPost
                       title="Renewable Power (Solar)"
                       image="/images/blog/solar.jpeg"
                       slug="/solar"
                     />
                   </li>
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                  <li className="mb-6 border-b border-body-color pb-6 border-opacity-10">
                     <RelatedPost
                       title="Construction Project Management"
                       image="/images/blog/construction.jpeg"
                       slug="/cpm"
                     />
                   </li>
-                  <li className="mb-6 border-b border-body-color border-opacity-10 pb-6 dark:border-white dark:border-opacity-10">
+                  <li className="mb-6 border-b border-body-color pb-6 border-opacity-10">
                     <RelatedPost
                       title="Mechanical and Electrical Engineering"
                       image="/images/blog/mech-elect.jpeg"

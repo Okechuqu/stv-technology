@@ -9,7 +9,7 @@ const Pricing = () => {
 
   return (
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
@@ -26,9 +26,7 @@ const Pricing = () => {
             <span
               onClick={() => setIsMonthly(true)}
               className={`${
-                isMonthly
-                  ? "pointer-events-none text-primary"
-                  : "text-dark dark:text-white"
+                isMonthly ? "pointer-events-none text-primary" : "text-white"
               } mr-4 cursor-pointer text-base font-semibold`}
             >
               Monthly
@@ -51,9 +49,7 @@ const Pricing = () => {
             <span
               onClick={() => setIsMonthly(false)}
               className={`${
-                isMonthly
-                  ? "text-dark dark:text-white"
-                  : "pointer-events-none text-primary"
+                isMonthly ? "text-white" : "pointer-events-none text-primary"
               } ml-4 cursor-pointer text-base font-semibold`}
             >
               Yearly

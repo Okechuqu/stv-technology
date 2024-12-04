@@ -5,8 +5,8 @@ import blogData from "./BlogData";
 const Blog = () => {
   return (
     <>
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
-      <section id="blog" className="bg-gray-light dark:bg-bg-color-dark py-5 ">
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
+      <section id="blog" className="bg-gray-light py-5 ">
         <div className="container">
           <SectionTitle
             title="Latest Blogs"

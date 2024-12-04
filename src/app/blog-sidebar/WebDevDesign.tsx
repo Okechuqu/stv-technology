@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const WebDesignDevPage = () => {
   return (
     <>
-      <section className="overflow-hidden h-screen">
+      <section className="overflow-hidden h-screen bg-black">
         <VortexBackground />
       </section>
     </>

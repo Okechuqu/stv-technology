@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <>
       <footer
-        className="wow fadeInUp dark:bg-black relative z-10 bg-black pt-10 md:pt-10 lg:pt-10"
+        className=" relative z-10 bg-black pt-10 md:pt-10 lg:pt-10"
         data-wow-delay=".1s"
       >
         <BackgroundBeamsWithCollision>
@@ -28,12 +28,12 @@ const Footer = () => {
                     <Img
                       src="/images/logo/foot-logo.png"
                       alt="logo"
-                      className="dark:block"
+                      className="block"
                       width={140}
                       height={10}
                     />
                   </Link>
-                  <div className="dark:text-white mb-9 text-base leading-relaxed text-white">
+                  <div className="text-white mb-9 text-base leading-relaxed ">
                     <p className="flex flex-row gap-2">
                       {" "}
                       <FaMapLocationDot /> Lagos: 48 Nuru Oniwo Street, Aguda,
@@ -48,28 +48,28 @@ const Footer = () => {
                     <a
                       href="https://www.facebook.com/stv-technology"
                       aria-label="social-link"
-                      className="dark:text-white mr-6 text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                      className="text-white mr-6  duration-300 hover:text-[#EC8618]"
                     >
                       <FaFacebook />
                     </a>
                     <a
                       href="https://www.x.com/@stv-technology"
                       aria-label="social-link"
-                      className="dark:text-white mr-6 text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                      className=" mr-6 text-white duration-300 hover:text-[#EC8618]"
                     >
                       <FaSquareXTwitter />
                     </a>
                     <a
                       href="https://www.youtube.com/@stv-technology"
                       aria-label="social-link"
-                      className="dark:text-white mr-6 text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                      className="text-white mr-6 duration-300 hover:text-[#EC8618]"
                     >
                       <FaYoutube />
                     </a>
                     <a
                       href="https://www.linkedin.com/@stv-technology"
                       aria-label="social-link"
-                      className="dark:text-white text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                      className="text-white duration-300 hover:text-[#EC8618]"
                     >
                       <FaLinkedinIn />
                     </a>
@@ -79,7 +79,7 @@ const Footer = () => {
 
               <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
                 <div className="mb-12 lg:mb-16">
-                  <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  <h2 className="mb-10 text-xl font-bold text-white">
                     Useful Links
                   </h2>
                   <div className="flex flex-col gap-1 text-white mb-3 items-center justify-center">
@@ -129,14 +129,12 @@ const Footer = () => {
 
               <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
                 <div className="mb-12 lg:mb-16">
-                  <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                    Terms
-                  </h2>
+                  <h2 className="mb-10 text-xl font-bold text-white">Terms</h2>
                   <ul>
                     <li>
                       <a
                         href="/"
-                        className="dark:text-white mb-4 inline-block text-base text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                        className="text-white mb-4 inline-block text-base  duration-300 hover:text-[#EC8618]"
                       >
                         TOS
                       </a>
@@ -144,7 +142,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        className="dark:text-white mb-4 inline-block text-base text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                        className="text-white mb-4 inline-block text-base  duration-300 hover:text-[#EC8618]"
                       >
                         Privacy Policy
                       </a>
@@ -152,7 +150,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="/"
-                        className="dark:text-white mb-4 inline-block text-base text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                        className="text-white mb-4 inline-block text-base duration-300 hover:text-[#EC8618]"
                       >
                         Refund Policy
                       </a>
@@ -163,14 +161,14 @@ const Footer = () => {
 
               <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
                 <div className="mb-12 lg:mb-16">
-                  <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
+                  <h2 className="mb-10 text-xl font-bold text-white">
                     Support & Help
                   </h2>
                   <ul>
                     <li>
                       <a
                         href="/contact"
-                        className="dark:text-white mb-4 inline-block text-base text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                        className="text-white mb-4 inline-block text-base duration-300 hover:text-[#EC8618]"
                       >
                         Open Support Ticket
                       </a>
@@ -180,9 +178,9 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+            <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
             <div className="py-4">
-              <p className="flex gap-40 items-center justify-center text-center text-base text-white dark:text-white">
+              <p className="flex gap-40 items-center justify-center text-center text-base  text-white">
                 <span>Copyright © 2024 . All Rights Reserved. </span>
                 <i className="text-sm">
                   Design and Developed with ❤️ by{" "}
@@ -405,16 +403,16 @@ export const Footie = () => {
         data-wow-delay=".1s"
       >
         <div className="">
-          <div className="h-1  bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+          <div className="h-1  bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
           <div className="py-8 flex flex-row gap-20 px-4 ">
-            <p className="text-center text-base text-white dark:text-white">
+            <p className="text-center text-base text-white">
               <a href="/"> STV Web Tech </a>
             </p>
             <ul className="flex flex-row flex-1 gap-10 justify-end">
               <li>
                 <a
                   href="/blog"
-                  className="dark:text-white mb-4 inline-block text-base text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                  className="text-white mb-4 inline-block text-base  duration-300 hover:text-[#EC8618]"
                 >
                   Blog
                 </a>
@@ -423,7 +421,7 @@ export const Footie = () => {
               <li>
                 <a
                   href="/about"
-                  className="dark:text-white mb-4 inline-block text-base text-white duration-300 hover:text-[#EC8618] dark:hover:text-[#EC8618]"
+                  className="text-white mb-4 inline-block text-base duration-300 hover:text-[#EC8618]"
                 >
                   About
                 </a>

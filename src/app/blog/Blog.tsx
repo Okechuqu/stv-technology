@@ -17,15 +17,15 @@ const Blog = () => {
         pageName="Useful Blogs"
         description="Discover the latest blogs, showcasing diverse topics, and valuable knowledge to keep you informed, inspired, and engaged."
       />
-      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent"></div>
 
-      <section className="pb-[120px] pt-[120px]">
+      <section className="pb-[50px] pt-[50px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap justify-center">
             {blogData.map((blog) => (
               <div
                 key={blog.id}
-                className="w-full px-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
+                className="w-full px-4 py-4 md:w-2/3 lg:w-1/2 xl:w-1/3"
               >
                 <SingleBlog blog={blog} />
               </div>

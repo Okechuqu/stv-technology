@@ -40,9 +40,9 @@ const Header = () => {
   return (
     <>
       <header
-        className={`header left-0 top-0 z-40 flex w-full items-center ${
+        className={`header left-0 top-0 z-40 relative flex w-full items-center ${
           sticky
-            ? "dark:shadow-sticky-dark fixed z-[9999] bg-[#C2C3C1]  shadow-sticky backdrop-blur-sm transition"
+            ? "bg-gray-dark shadow-sticky-dark  fixed z-[9999] bg-[#C2C3C1]  backdrop-blur-sm transition"
             : "absolute bg-[#C2C3C1]"
         }`}
       >
@@ -60,7 +60,7 @@ const Header = () => {
                   alt="logo"
                   width={140}
                   height={30}
-                  className="hidden w-full dark:block bg-cover"
+                  className=" w-full block bg-cover"
                 />
               </Link>
             </div>
@@ -90,7 +90,7 @@ const Header = () => {
                 </button>
                 <nav
                   id="navbarCollapse"
-                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-[#C2C3C1]  px-6 py-4 duration-300 dark:border-body-color/20 text-white lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
+                  className={`navbar absolute right-0 z-30 w-[250px] rounded border-[.5px] border-body-color/50 bg-[#C2C3C1]  px-6 py-4 duration-300 border-body-color/20 text-white lg:visible lg:static lg:w-auto lg:border-none lg:!bg-transparent lg:p-0 lg:opacity-100 ${
                     navbarOpen
                       ? "visibility top-full opacity-100"
                       : "invisible top-[120%] opacity-0"
@@ -143,7 +143,7 @@ const Header = () => {
                                   <Link
                                     to={submenuItem.path ?? "#"} // Added fallback for undefined path
                                     key={index}
-                                    className="lg:flex gap-2 rounded inline-flex py-2.5 text-sm text-[#004262] hover:text-[#0770A9] dark:text-black/70 dark:hover:text-white lg:px-3"
+                                    className="lg:flex gap-2 rounded inline-flex py-2.5 text-sm text-[#ffff] hover:text-[#0770A9]   lg:px-3"
                                   >
                                     {submenuItem.icon} &nbsp;{" "}
                                     {submenuItem.title}
