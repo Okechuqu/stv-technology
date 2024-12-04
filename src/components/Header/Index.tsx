@@ -143,7 +143,7 @@ const Header = () => {
                                   <Link
                                     to={submenuItem.path ?? "#"} // Added fallback for undefined path
                                     key={index}
-                                    className="lg:flex gap-2 rounded inline-flex py-2.5 text-sm text-[#ffff] hover:text-[#0770A9]   lg:px-3"
+                                    className="lg:flex gap-2 rounded inline-flex py-2.5 text-sm text-black hover:text-[#0770A9]   lg:px-3"
                                   >
                                     {submenuItem.icon} &nbsp;{" "}
                                     {submenuItem.title}
