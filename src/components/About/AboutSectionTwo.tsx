@@ -13,7 +13,7 @@ const AboutSectionTwo = () => {
               <Img
                 src="/images/about/slideone2.jpg"
                 alt="about image"
-                className="drop-shadow-three about2img rounded-lg hidden drop-shadow-none"
+                className="drop-shadow-three about2img rounded-lg drop-shadow-none"
               />
             </div>
           </div>

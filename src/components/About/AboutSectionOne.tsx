@@ -59,7 +59,7 @@ const AboutSectionOne = () => {
                 <Img
                   src="/images/about/about.jpeg"
                   alt="about-image"
-                  className="drop-shadow-three mx-auto about2img max-w-full hidden drop-shadow-none lg:mr-0"
+                  className="drop-shadow-three mx-auto about2img max-w-full  drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>
